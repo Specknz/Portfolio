@@ -1,3 +1,5 @@
+/***************************** Elements *****************************/
+
 td {
     padding: 0 15px;
 }
@@ -25,6 +27,8 @@ h1, h2, h3, h4{
 }
 
 
+/***************************** Classes *****************************/
+
 .IndexMainHeadingImage {
     border: 3px solid #BDCDD6;
     border-radius: 100%;
@@ -37,3 +41,6 @@ h1, h2, h3, h4{
     border-radius: 20%;
     background-color: whitesmoke;
 }
+
+
+/***************************** ids *****************************/
