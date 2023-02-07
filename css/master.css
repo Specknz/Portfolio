@@ -5,11 +5,10 @@ td {
 
 hr {
     border-style: none;
-    border-top-style: dotted;
+    border-top-style: solid;
     border-color: #EAFDFC;
-    border-width: 5px;
-    width: 7%;
-    margin-left: 15%;
+    border-width: 2px;
+    width: 25%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -17,12 +16,17 @@ hr {
 
 body {
     background-color: #567189;
-    color: #EAFDFC;
+    color: #EEE9DA;
+}
+
+
+h1, h2, h3, h4{
+    color: #BDCDD6;
 }
 
 
 .IndexMainHeadingImage {
-    border: 3px solid #EAFDFC;
+    border: 3px solid #BDCDD6;
     border-radius: 100%;
 }
 
@@ -31,5 +35,5 @@ body {
     height: 30px;
     width: 100px;
     border-radius: 20%;
-    background-color: #CFB997;
+    background-color: whitesmoke;
 }
