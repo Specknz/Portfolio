@@ -8,7 +8,7 @@ td {
 hr {
     border-style: none;
     border-top-style: solid;
-    border-color: #EAFDFC;
+    border-color: #BDCDD6;
     border-width: 2px;
     width: 25%;
     margin-top: 30px;
@@ -18,7 +18,9 @@ hr {
 
 body {
     background-color: #567189;
-    color: #EEE9DA;
+    color: whitesmoke;
+    padding: 50px;
+    font-family: Helvetica, sans-serif;
 }
 
 
@@ -29,13 +31,32 @@ h1, h2, h3, h4{
 
 /***************************** Classes *****************************/
 
-.IndexMainHeadingImage {
+.profile-image {
     border: 3px solid #BDCDD6;
     border-radius: 100%;
 }
 
 
-.SubmitButton {
+.top-info-box {
+    display: inline-block;
+}
+
+
+.name-block {
+    display: inline-block;
+}
+
+.name-header {
+    margin-bottom: 0px;
+}
+
+
+.title-header {
+    margin-top: 0px;
+}
+
+
+.submit-button {
     height: 30px;
     width: 100px;
     border-radius: 20%;
