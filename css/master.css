@@ -18,16 +18,16 @@ td {
 hr {
     border-style: none;
     border-top-style: solid;
-    border-width: 2px;
-    width: 35%;
-    margin: 75px auto 75px auto;
+    border-width: 1px;
+    width: 50%;
+    margin: 100px auto 100px auto;
 }
 
 
 body {
     background-color: #567189;
     color: whitesmoke;
-    padding: 50px;
+    padding: 20px;
     text-align: center;
     /* font-family: Helvetica, serif; */
     /* font-family: Verdana, Arial, sans-serif; */
@@ -38,6 +38,7 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     color: #BDCDD6;
+    font-size: 70px;
 }
 
 h2, h3, h4{
@@ -63,11 +64,20 @@ img {
 }
 
 
+.about-me-blerb {
+    width: 700px;
+    min-width: 25%;
+    max-width: 95%;
+    margin: 100px auto 0 auto;
+    text-align: justify;
+}
+
 .name-block {
     display: inline-block;
     text-align: left;
     position: relative;
     bottom: 25px;
+    margin-top: 50px;
     margin-left: 10px;
 }
 
@@ -82,6 +92,7 @@ img {
     text-align: left;
     margin: 0 auto 0 auto
 }
+
 
 .left-align-header {
     text-align: left;
