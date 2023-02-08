@@ -1,3 +1,13 @@
+/* Colors
+
+Background: #567189
+
+Headers: #BDCDD6
+
+Content: whitesmoke
+
+*/
+
 /***************************** Elements *****************************/
 
 td {
@@ -8,11 +18,9 @@ td {
 hr {
     border-style: none;
     border-top-style: solid;
-    border-color: #BDCDD6;
     border-width: 2px;
-    width: 25%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    width: 35%;
+    margin: 75px auto 75px auto;
 }
 
 
@@ -20,11 +28,24 @@ body {
     background-color: #567189;
     color: whitesmoke;
     padding: 50px;
-    font-family: Helvetica, sans-serif;
+    text-align: center;
+    /* font-family: Helvetica, serif; */
+    /* font-family: Verdana, Arial, sans-serif; */
+    font-family: 'Merriweather', serif;
 }
 
 
-h1, h2, h3, h4{
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #BDCDD6;
+}
+
+h2, h3, h4{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #BDCDD6;
+}
+
+img {
     color: #BDCDD6;
 }
 
@@ -32,35 +53,38 @@ h1, h2, h3, h4{
 /***************************** Classes *****************************/
 
 .profile-image {
-    border: 3px solid #BDCDD6;
+    border: 3px solid;
     border-radius: 100%;
 }
 
 
-.top-info-box {
+.inline-block {
     display: inline-block;
 }
 
 
 .name-block {
     display: inline-block;
+    text-align: left;
+    position: relative;
+    bottom: 25px;
+    margin-left: 10px;
 }
 
-.name-header {
+
+.header-margin {
     margin-bottom: 0px;
-}
-
-
-.title-header {
     margin-top: 0px;
 }
 
 
-.submit-button {
-    height: 30px;
-    width: 100px;
-    border-radius: 20%;
-    background-color: whitesmoke;
+.skills-table {
+    text-align: left;
+    margin: 0 auto 0 auto
+}
+
+.left-align-header {
+    text-align: left;
 }
 
 
