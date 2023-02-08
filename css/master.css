@@ -59,8 +59,10 @@ img {
 }
 
 
-.inline-block {
+.header-container {
     display: inline-block;
+    position: relative;
+    margin-top: 100px;
 }
 
 
@@ -72,7 +74,7 @@ img {
     text-align: justify;
 }
 
-.name-block {
+.name-and-tile-block {
     display: inline-block;
     text-align: left;
     position: relative;
