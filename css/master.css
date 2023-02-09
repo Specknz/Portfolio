@@ -207,38 +207,4 @@ a:hover {
 }
 
 
-.btn {
-    background: #455761;
-    background-image: -webkit-linear-gradient(top, #455761, #7b9bad);
-    background-image: -moz-linear-gradient(top, #455761, #7b9bad);
-    background-image: -ms-linear-gradient(top, #455761, #7b9bad);
-    background-image: -o-linear-gradient(top, #455761, #7b9bad);
-    background-image: linear-gradient(to bottom, #455761, #7b9bad);
-    -webkit-border-radius: 8;
-    -moz-border-radius: 8;
-    border-radius: 8px;
-    border-color: #BDCDD6;
-    font-family: 'Montserrat', sans-serif;
-    color: whitesmoke;
-    font-size: 18px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    margin: 25px;
-}
-
-.btn:hover {
-    background: #cadbe6;
-    background-image: -webkit-linear-gradient(top, #cadbe6, #a1bbcc);
-    background-image: -moz-linear-gradient(top, #cadbe6, #a1bbcc);
-    background-image: -ms-linear-gradient(top, #cadbe6, #a1bbcc);
-    background-image: -o-linear-gradient(top, #cadbe6, #a1bbcc);
-    background-image: linear-gradient(to bottom, #cadbe6, #a1bbcc);
-    text-decoration: none;
-}
-
-
-
-
-
-
 /***************************** ids *****************************/
