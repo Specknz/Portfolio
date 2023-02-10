@@ -176,6 +176,9 @@ hr {
 .footer-container {
     padding: 25px 10px 10px 10px;
     text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-links-container {
@@ -220,7 +223,8 @@ hr {
 .form-container {
     width: 700px;
     max-width: 85%;
-    margin: auto;
+    margin: auto auto 200px auto;
+    padding: 0;
 }
 
 
