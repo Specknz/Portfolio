@@ -1,65 +1,40 @@
-/* Colors
-
-Background: #4b6074
-
-Header/Footer: #647b88
-
-Heading text: #BDCDD6
-
-Content: whitesmoke
-
-*/
-
 /***************************** Elements *****************************/
-
-td {
-    padding: 0 15px;
-}
-
-
-hr {
-    border-style: none;
-    border-top-style: solid;
-    border-width: 1px;
-    width: 35%;
-    margin: 100px auto 100px auto;
-}
-
 
 body {
     background-color: #4b6074;
-    color: whitesmoke;
-    text-align: center;
-    margin: auto;
+    color: #BDCDD6;
     /* font-family: Helvetica, serif; */
     /* font-family: Verdana, Arial, sans-serif; */
     font-family: 'Merriweather', serif;
 }
 
-
 h1 {
     font-family: 'Montserrat', sans-serif;
-    color: #BDCDD6;
+    color: whitesmoke;
     font-size: 3.4rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #BDCDD6;
+    color: whitesmoke;
     font-size: 2rem;
 }
 
-h3, h4{
+h3,
+h4 {
     font-family: 'Montserrat', sans-serif;
-    color: #BDCDD6;
+    color: whitesmoke;
 }
 
 img {
-    color: #BDCDD6;
+    color: whitesmoke;
 }
 
 a {
-    color: #BDCDD6;
+    color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
@@ -68,96 +43,32 @@ a:hover {
     color: whitesmoke;
 }
 
+hr {
+    border-style: none;
+    border-top-style: solid;
+    border-width: 1px;
+    min-width: 5%;
+    width: 700px;
+    max-width: 85%;
+    margin: 125px auto 125px auto;
+}
+
 
 /***************************** Classes *****************************/
 
 
-.profile-image {
-    border: 3px solid;
-    border-radius: 100%;
+/***** Buttons *****/
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
 }
 
 
-.header-container {
-    display: inline-block;
-    position: relative;
-    margin-top: 100px;
-}
-
-
-.name-block {
-    display: inline-block;
-    text-align: left;
-    position: relative;
-    top: 50px;
-    margin-left: 10px;
-}
-
-
-.about-me-blerb {
-    min-width: 5%;
-    width: 500px;
-    max-width: 85%;
-    margin: 50px auto 0 auto;
-    text-align: Center;
-}
-
-.skills {
-    margin: 0;
-}
-
-
-.skill-container {
-    margin: 150px auto 150px auto;
-    min-width: 5%;
-    width: 700px;
-    max-width: 85%;
-    line-height: 2;
-}
-
-
-.dev-icon {
-    width: 20%;
-    margin-right: 30px;
-    float: left;
-}
-
-
-.audio-icon {
-    width: 20%;
-    float: right;
-    margin-left: 30px;
-}
-
-
-.dev-skill {
-    text-align: left;
-}
-
-
-.audio-skill {
-    text-align: left;
-}
-
-
-.contact-container {
-    min-width: 5%;
-    width: 500px;
-    max-width: 85%;
-    margin: 50px auto 50px;
-    line-height: 2;
-}
-
-
-.contact-header {
-    margin-bottom: 50px;
-}
-
+/***** Navigation Bar *****/
 
 .navbar {
     background-color: #647b88;
 }
-
 
 .navbar-brand {
     padding-left: 30px;
@@ -167,19 +78,104 @@ a:hover {
     margin-right: 20px;
 }
 
-
 .nav-item {
     padding: 10px 25px;
 }
 
-
-.nav-link{
+.nav-link {
     color: whitesmoke;
 }
 
 
+/***** Header *****/
+
+.header-container {
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+
+.profile-image {
+    border: 4px solid;
+    border-radius: 100%;
+}
+
+.name-block {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    top: 50px;
+    margin-left: 10px;
+}
+
+.welcome-blerb {
+    min-width: 5%;
+    width: 500px;
+    max-width: 85%;
+    margin: 75px auto 0 auto;
+    text-align: Center;
+}
+
+
+/***** Skills *****/
+
+
+
+.skills-header {
+    margin: 125px auto;
+    text-align: center;
+}
+
+.skill-container {
+    margin: auto auto 125px auto;
+    min-width: 5%;
+    width: 700px;
+    max-width: 85%;
+    line-height: 2;
+}
+
+.dev-skill {
+    text-align: left;
+}
+
+.dev-icon {
+    width: 20%;
+    margin-right: 30px;
+    float: left;
+}
+
+.audio-skill {
+    text-align: left;
+}
+
+.audio-icon {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+/***** Contact *****/
+
+.contact-container {
+    min-width: 5%;
+    width: 500px;
+    max-width: 85%;
+    margin: 50px auto 50px;
+    line-height: 2;
+    text-align: center;
+}
+
+.contact-header {
+    margin-bottom: 50px;
+}
+
+
+
+/***** Footer *****/
+
 .footer-container {
-    padding: 25px 0 10px
+    padding: 25px 10px 10px 10px;
+    text-align: center;
 }
 
 .footer-links-container {
@@ -188,13 +184,12 @@ a:hover {
 
 .footer-link {
     display: inline-block;
-    margin: auto 10px;
+    margin: 10px 10px;
 }
 
 .footer-link-icons {
     height: 20px;
 }
-
 
 .copyright {
     margin: auto;
@@ -206,9 +201,28 @@ a:hover {
     font-size: 0.75rem;
 }
 
-.btn {
-    font-family: 'Montserrat', sans-serif;
+
+/***** Contact Form *****/
+
+
+.contact-header {
+    margin: 125px 0 50px 0;
 }
+
+.contact-context {
+    margin: 0 auto 50px auto;
+    min-width: 25%;
+    width: 700px;
+    max-width: 85%;
+    text-align: center;
+}
+
+.form-container {
+    width: 700px;
+    max-width: 85%;
+    margin: auto;
+}
+
 
 
 /***************************** ids *****************************/
