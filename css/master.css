@@ -206,5 +206,9 @@ a:hover {
     font-size: 0.75rem;
 }
 
+.btn {
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 /***************************** ids *****************************/
