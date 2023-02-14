@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-    color: whitesmoke;
+    color: black;
 }
 
 hr {
@@ -56,6 +56,9 @@ hr {
 
 /***************************** Classes *****************************/
 
+.alt-background-color-1 {
+    background-color: #587086;
+}
 
 /***** Buttons *****/
 
@@ -227,6 +230,42 @@ hr {
     padding: 0;
 }
 
+
+/***** Projects Page *****/
+
+.all-projects-container {
+    text-align: center;
+}
+
+.project-container {
+    padding: 100px 0;
+}
+
+.project-header{
+    margin-bottom: 50px
+}
+
+.carousel-indicators {
+    margin: 0 auto;
+}
+
+.project-feature-image {
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+.feature-description {
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+.carousel-control-prev {
+    margin-left: 100px;
+}
+
+.carousel-control-next {
+    margin-right: 100px;
+}
 
 
 /***************************** ids *****************************/
