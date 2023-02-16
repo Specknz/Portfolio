@@ -6,6 +6,9 @@ body {
     /* font-family: Helvetica, serif; */
     /* font-family: Verdana, Arial, sans-serif; */
     font-family: 'Merriweather', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -182,6 +185,7 @@ hr {
     position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: auto;
 }
 
 .footer-links-container {
@@ -267,5 +271,18 @@ hr {
     margin-right: 100px;
 }
 
+
+/***** About me Page *****/
+
+.about-me-container {
+    text-align: center;
+    min-width: 25%;
+    width: 700px;
+    max-width: 85%;
+}
+
+.about-me-page-container {
+
+}
 
 /***************************** ids *****************************/
