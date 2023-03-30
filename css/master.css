@@ -53,7 +53,7 @@ hr {
     min-width: 5%;
     width: 700px;
     max-width: 85%;
-    margin: 125px auto 125px auto;
+    margin: 75px auto;
 }
 
 
@@ -127,12 +127,12 @@ hr {
 
 
 .skills-header {
-    margin: 125px auto;
+    margin: 75px auto;
     text-align: center;
 }
 
 .skill-container {
-    margin: auto auto 125px auto;
+    margin: 75px auto;
     min-width: 5%;
     width: 700px;
     max-width: 85%;
