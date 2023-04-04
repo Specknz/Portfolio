@@ -66,25 +66,27 @@
 
 
     <!-- Contact Form -->
-    <form class="form-container">
+    <form class="form-container" action="https://formsubmit.co/stevenpeckdev@gmail.com" method="POST">
         <div class="row py-2">
             <div class="form-group col-md-6 pb-2">
                 <label for="inputName">Name</label>
-                <input type="text" class="form-control" id="inputName" placeholder="John Smith">
+                <input type="text" name="name" class="form-control" id="inputName" placeholder="John Smith">
             </div>
             <div class="form-group col-md-6">
                 <label for="inputEmail">Email</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+                <input type="email" name="email" class="form-control" id="inputEmail" placeholder="name@example.com">
             </div>
         </div>
 
         <div class="form-group">
             <label for="inputMessage">Message</label>
-            <textarea type="text" class="form-control" id="inputMessage" rows="6"></textarea>
+            <textarea type="text" name="message" class="form-control" id="inputMessage" rows="6"></textarea>
         </div>
         <div class="d-flex flex-row-reverse">
             <button type="submit" class="btn btn-dark mt-4">Send</button>
         </div>
+        <input type="hidden" name="_subject" value="New website contact">
+        <input type="hidden" name="_next" value="https://stevenpeck.dev">
     </form>
 
 
